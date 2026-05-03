@@ -79,6 +79,20 @@ Base URL: `https://open.bigmodel.cn/api/paas/v4`
 
 Third-party platforms that host open-weight models from various sources.
 
+### [AI Fast Club](https://www.aifast.club) 🇨🇳
+
+Zero-hassle AI API gateway providing unified access to Claude 4.7, GPT-5.5, Gemini-3, DeepSeek V4 and more. Supports domestic Chinese payment, no overseas credit card required. Global load balancing with residential IP routing to prevent API bans.
+
+Base URL: `https://www.aifast.club/v1`
+
+| Model Name | Context | Max Output | Modality | Rate Limit |
+| ---------- | ------- | ---------- | -------- | ---------- |
+| claude-4-7-opus | 200K | 8K | Text | 30 RPM |
+| claude-4-6-sonnet | 200K | 8K | Text | 60 RPM |
+| gpt-5-5-ultra | 128K | 16K | Text | 30 RPM |
+| gemini-3-flash | 1M | 8K | Text | 60 RPM |
+| deepseek-v4 | 128K | 8K | Text | 30 RPM |
+
 ### [Cerebras](https://cloud.cerebras.ai/) 🇺🇸
 
 Free tier, no credit card. Ultra-fast inference (~2,600 tok/s). 1M tokens/day cap.
