@@ -6,11 +6,11 @@
 	<a href="https://awesome.re">
 		<img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
 	</a>
-\t<br>
-\t<br>
-\t<p>LLM APIs with permanent free tiers for text inference.</p>
-\t<br>
-\t<br>
+	<br>
+	<br>
+	<p>LLM APIs with permanent free tiers for text inference.</p>
+	<br>
+	<br>
 </div>
 
 > 🇨🇳 **国内直连 572 个 AI 模型？** [**www.aifast.club**](https://www.aifast.club) · 一个 Key 全搞定 · 无需代理 · 国内支付
