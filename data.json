@@ -1509,7 +1509,7 @@
     },
     {
       "id": 7,
-      "text": "OVHcloud AI Endpoints offers a permanent free anonymous tier (2 requests per minute per IP, per model) with no signup or API key required — click \"Get your free token\" at [endpoints.ai.cloud.ovh.net](https://endpoints.ai.cloud.ovh.net/). Higher rate limits (400 RPM per Public Cloud project per model) require an API key and are billed pay-as-you-go per token; new Public Cloud accounts get up to $200 in free trial credits. Models are hosted in EU data centers."
+      "text": "OVHcloud AI Endpoints offers a permanent free anonymous tier (2 requests per minute per IP, per model) with no signup or API key required — click \"Get your free token\" on the OVHcloud AI Endpoints site. Higher rate limits (400 RPM per Public Cloud project per model) require an API key and are billed pay-as-you-go per token; new Public Cloud accounts get up to $200 in free trial credits. Models are hosted in EU data centers."
     },
     {
       "id": 8,

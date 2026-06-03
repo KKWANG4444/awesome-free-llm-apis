@@ -166,17 +166,17 @@ Base URL: `https://api.cerebras.ai/v1`
 
 Base URL: `https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run`
 
-| Model Name                                   | Context   | Max Output        | Modality                       | Rate Limit               |
-| -------------------------------------------- | --------- | ----------------- | ------------------------------ | ------------------------ |
-| @cf/meta/llama-3.3-70b-instruct-fp8-fast     | 131K      | Shared w/ context | Text                           | 10K neurons/day (shared) |
-| @cf/meta/llama-3.1-8b-instruct-fp8-fast      | 131K      | Shared w/ context | Text                           | 10K neurons/day (shared) |
-| @cf/meta/llama-3.2-11b-vision-instruct       | 131K      | Shared w/ context | Text + Vision                  | 10K neurons/day (shared) |
-| @cf/meta/llama-4-scout-17b-16e-instruct      | Up to 10M | Shared w/ context | Multimodal                     | 10K neurons/day (shared) |
-| @cf/mistralai/mistral-small-3.1-24b-instruct | 128K      | Shared w/ context | Text                           | 10K neurons/day (shared) |
-| @cf/google/gemma-4-26b-a4b-it                | 256K      | Shared w/ context | Text                           | 10K neurons/day (shared) |
-| @cf/moonshotai/kimi-k2.5                     | 256K      | Shared w/ context | Text + Vision                  | 10K neurons/day (shared) |
-| @cf/deepseek-ai/deepseek-r1-distill-qwen-32b | 32K       | Shared w/ context | Text (reasoning)               | 10K neurons/day (shared) |
-| + 42 more models                             | Varies    | Varies            | Text, Image, Audio, Embeddings | 10K neurons/day (shared) |
+| Model Name                                     | Context   | Max Output        | Modality                       | Rate Limit               |
+| ---------------------------------------------- | --------- | ----------------- | ------------------------------ | ------------------------ |
+| `@cf/meta/llama-3.3-70b-instruct-fp8-fast`     | 131K      | Shared w/ context | Text                           | 10K neurons/day (shared) |
+| `@cf/meta/llama-3.1-8b-instruct-fp8-fast`      | 131K      | Shared w/ context | Text                           | 10K neurons/day (shared) |
+| `@cf/meta/llama-3.2-11b-vision-instruct`       | 131K      | Shared w/ context | Text + Vision                  | 10K neurons/day (shared) |
+| `@cf/meta/llama-4-scout-17b-16e-instruct`      | Up to 10M | Shared w/ context | Multimodal                     | 10K neurons/day (shared) |
+| `@cf/mistralai/mistral-small-3.1-24b-instruct` | 128K      | Shared w/ context | Text                           | 10K neurons/day (shared) |
+| `@cf/google/gemma-4-26b-a4b-it`                | 256K      | Shared w/ context | Text                           | 10K neurons/day (shared) |
+| `@cf/moonshotai/kimi-k2.5`                     | 256K      | Shared w/ context | Text + Vision                  | 10K neurons/day (shared) |
+| `@cf/deepseek-ai/deepseek-r1-distill-qwen-32b` | 32K       | Shared w/ context | Text (reasoning)               | 10K neurons/day (shared) |
+| + 42 more models                               | Varies    | Varies            | Text, Image, Audio, Embeddings | 10K neurons/day (shared) |
 
 ### [GitHub Models](https://github.com/marketplace/models) 🇺🇸
 
@@ -238,14 +238,14 @@ Free models with no credit card required. `kilo-auto/free` auto-router routes to
 
 Base URL: `https://api.kilo.ai/api/gateway`
 
-| Model Name                             | Context | Max Output | Modality         | Rate Limit  |
-| -------------------------------------- | ------- | ---------- | ---------------- | ----------- |
-| x-ai/grok-code-fast-1:free             | 256K    | —          | Text (code)      | ~200 req/hr |
-| minimax/minimax-m2.5:free              | 196K    | 8K         | Text             | ~200 req/hr |
-| bytedance-seed/dola-seed-2.0-pro:free  | —       | —          | Text             | ~200 req/hr |
-| nvidia/nemotron-3-super-120b-a12b:free | 262K    | 32K        | Text             | ~200 req/hr |
-| arcee-ai/trinity-large-thinking:free   | —       | —          | Text (reasoning) | ~200 req/hr |
-| openrouter/free                        | Varies  | Varies     | Text             | ~200 req/hr |
+| Model Name                               | Context | Max Output | Modality         | Rate Limit  |
+| ---------------------------------------- | ------- | ---------- | ---------------- | ----------- |
+| `x-ai/grok-code-fast-1:free`             | 256K    | —          | Text (code)      | ~200 req/hr |
+| `minimax/minimax-m2.5:free`              | 196K    | 8K         | Text             | ~200 req/hr |
+| `bytedance-seed/dola-seed-2.0-pro:free`  | —       | —          | Text             | ~200 req/hr |
+| `nvidia/nemotron-3-super-120b-a12b:free` | 262K    | 32K        | Text             | ~200 req/hr |
+| `arcee-ai/trinity-large-thinking:free`   | —       | —          | Text (reasoning) | ~200 req/hr |
+| `openrouter/free`                        | Varies  | Varies     | Text             | ~200 req/hr |
 
 ### [LLM7.io](https://token.llm7.io) 🇬🇧
 
@@ -271,9 +271,9 @@ Base URL: `https://api-inference.modelscope.cn/v1`
 
 | Model Name                     | Context | Max Output | Modality         | Rate Limit                                 |
 | ------------------------------ | ------- | ---------- | ---------------- | ------------------------------------------ |
-| Qwen/Qwen3.5-35B-A3B           | —       | —          | Text + Vision    | 2,000 RPD total; <=500 RPD/model (dynamic) |
-| Qwen/Qwen3.5-27B               | —       | —          | Text             | 2,000 RPD total; <=500 RPD/model (dynamic) |
-| Qwen/Qwen-Image                | —       | —          | Image Generation | 2,000 RPD total; model/AIGC-specific caps  |
+| `Qwen/Qwen3.5-35B-A3B`         | —       | —          | Text + Vision    | 2,000 RPD total; <=500 RPD/model (dynamic) |
+| `Qwen/Qwen3.5-27B`             | —       | —          | Text             | 2,000 RPD total; <=500 RPD/model (dynamic) |
+| `Qwen/Qwen-Image`              | —       | —          | Image Generation | 2,000 RPD total; model/AIGC-specific caps  |
 | + API-Inference-enabled models | Varies  | Varies     | LLM, MLLM, AIGC  | Dynamic quotas + dynamic concurrency       |
 
 ### [Nebius](https://studio.nebius.com/settings/api-keys) 🇳🇱
@@ -311,19 +311,19 @@ Free with NVIDIA Developer Program membership. 100+ models. Rate-limited (no dai
 
 Base URL: `https://integrate.api.nvidia.com/v1`
 
-| Model Name                              | Context | Max Output | Modality                               | Rate Limit |
-| --------------------------------------- | ------- | ---------- | -------------------------------------- | ---------- |
-| deepseek-ai/deepseek-r1                 | 128K    | ~163K      | Text (reasoning)                       | ~40 RPM    |
-| nvidia/llama-3.1-nemotron-ultra-253b-v1 | 128K    | 4K         | Text                                   | ~40 RPM    |
-| nvidia/nemotron-3-super-120b-a12b       | 262K    | 262K       | Text                                   | ~40 RPM    |
-| nvidia/nemotron-3-nano-30b-a3b          | 128K    | 32K        | Text                                   | ~40 RPM    |
-| meta/llama-3.1-405b-instruct            | 128K    | 4K         | Text                                   | ~40 RPM    |
-| qwen/qwen2.5-72b-instruct               | 128K    | 8K         | Text                                   | ~40 RPM    |
-| google/gemma-4-31b                      | 128K    | 8K         | Text                                   | ~40 RPM    |
-| mistralai/mistral-large-2-instruct      | 128K    | 4K         | Text                                   | ~40 RPM    |
-| nvidia/nemotron-nano-2-vl               | 128K    | 8K         | Vision + Text + Video                  | ~40 RPM    |
-| minimax/minimax-m2.7                    | 128K    | 8K         | Text                                   | ~40 RPM    |
-| + 90 more models                        | Varies  | Varies     | Text, Image, Video, Speech, Embeddings | ~40 RPM    |
+| Model Name                                | Context | Max Output | Modality                               | Rate Limit |
+| ----------------------------------------- | ------- | ---------- | -------------------------------------- | ---------- |
+| `deepseek-ai/deepseek-r1`                 | 128K    | ~163K      | Text (reasoning)                       | ~40 RPM    |
+| `nvidia/llama-3.1-nemotron-ultra-253b-v1` | 128K    | 4K         | Text                                   | ~40 RPM    |
+| `nvidia/nemotron-3-super-120b-a12b`       | 262K    | 262K       | Text                                   | ~40 RPM    |
+| `nvidia/nemotron-3-nano-30b-a3b`          | 128K    | 32K        | Text                                   | ~40 RPM    |
+| `meta/llama-3.1-405b-instruct`            | 128K    | 4K         | Text                                   | ~40 RPM    |
+| `qwen/qwen2.5-72b-instruct`               | 128K    | 8K         | Text                                   | ~40 RPM    |
+| `google/gemma-4-31b`                      | 128K    | 8K         | Text                                   | ~40 RPM    |
+| `mistralai/mistral-large-2-instruct`      | 128K    | 4K         | Text                                   | ~40 RPM    |
+| `nvidia/nemotron-nano-2-vl`               | 128K    | 8K         | Vision + Text + Video                  | ~40 RPM    |
+| `minimax/minimax-m2.7`                    | 128K    | 8K         | Text                                   | ~40 RPM    |
+| + 90 more models                          | Varies  | Varies     | Text, Image, Video, Speech, Embeddings | ~40 RPM    |
 
 ### [Ollama Cloud](https://ollama.com/settings/keys) 🇺🇸
 
@@ -331,15 +331,15 @@ Free tier with qualitative usage limits. 400+ models from Ollama library. Not Op
 
 Base URL: `https://api.ollama.com`
 
-| Model Name               | Context | Max Output      | Modality         | Rate Limit                          |
-| ------------------------ | ------- | --------------- | ---------------- | ----------------------------------- |
-| gpt-oss:120b-cloud       | 128K    | Model-dependent | Text             | Session/weekly limits (unpublished) |
-| deepseek-v3.1:671b-cloud | 128K    | Model-dependent | Text             | Session/weekly limits (unpublished) |
-| qwen3-coder:480b-cloud   | 128K    | Model-dependent | Text (code)      | Session/weekly limits (unpublished) |
-| kimi-k2:1t-cloud         | 262K    | Model-dependent | Text             | Session/weekly limits (unpublished) |
-| glm-4.6:cloud            | 128K    | Model-dependent | Text             | Session/weekly limits (unpublished) |
-| deepseek-r1:cloud        | 128K    | Model-dependent | Text (reasoning) | Session/weekly limits (unpublished) |
-| + 30 more cloud models   | Varies  | Varies          | Text             | Session/weekly limits (unpublished) |
+| Model Name                 | Context | Max Output      | Modality         | Rate Limit                          |
+| -------------------------- | ------- | --------------- | ---------------- | ----------------------------------- |
+| `gpt-oss:120b-cloud`       | 128K    | Model-dependent | Text             | Session/weekly limits (unpublished) |
+| `deepseek-v3.1:671b-cloud` | 128K    | Model-dependent | Text             | Session/weekly limits (unpublished) |
+| `qwen3-coder:480b-cloud`   | 128K    | Model-dependent | Text (code)      | Session/weekly limits (unpublished) |
+| `kimi-k2:1t-cloud`         | 262K    | Model-dependent | Text             | Session/weekly limits (unpublished) |
+| `glm-4.6:cloud`            | 128K    | Model-dependent | Text             | Session/weekly limits (unpublished) |
+| `deepseek-r1:cloud`        | 128K    | Model-dependent | Text (reasoning) | Session/weekly limits (unpublished) |
+| + 30 more cloud models     | Varies  | Varies          | Text             | Session/weekly limits (unpublished) |
 
 ### [OpenRouter](https://openrouter.ai/keys) 🇺🇸
 
@@ -347,21 +347,21 @@ Base URL: `https://api.ollama.com`
 
 Base URL: `https://openrouter.ai/api/v1`
 
-| Model Name                             | Context | Max Output | Modality         | Rate Limit     |
-| -------------------------------------- | ------- | ---------- | ---------------- | -------------- |
-| deepseek/deepseek-r1-0528:free         | 163K    | ~163K      | Text (reasoning) | 20 RPM, 50 RPD |
-| deepseek/deepseek-chat-v3.1:free       | 163K    | 163K       | Text             | 20 RPM, 50 RPD |
-| qwen/qwen3-235b-a22b:free              | 128K    | ~32K       | Text             | 20 RPM, 50 RPD |
-| qwen/qwen3-coder-480b-a35b:free        | 262K    | ~32K       | Text (code)      | 20 RPM, 50 RPD |
-| meta-llama/llama-4-scout:free          | 10M     | 16K        | Multimodal       | 20 RPM, 50 RPD |
-| meta-llama/llama-4-maverick:free       | 1M      | 16K        | Multimodal       | 20 RPM, 50 RPD |
-| meta-llama/llama-3.3-70b-instruct:free | 65K     | ~16K       | Text             | 20 RPM, 50 RPD |
-| google/gemma-4-31b-it:free             | 256K    | ~8K        | Multimodal       | 20 RPM, 50 RPD |
-| nvidia/nemotron-3-super-120b-a12b:free | 1M      | ~32K       | Text             | 20 RPM, 50 RPD |
-| openai/gpt-oss-120b:free               | 131K    | 131K       | Text             | 20 RPM, 50 RPD |
-| minimax/minimax-m2.5:free              | 196K    | 8K         | Text             | 20 RPM, 50 RPD |
-| mistralai/devstral-2512:free           | 256K    | ~32K       | Text             | 20 RPM, 50 RPD |
-| + ~16 more free models                 | Varies  | Varies     | Text / Image     | 20 RPM, 50 RPD |
+| Model Name                               | Context | Max Output | Modality         | Rate Limit     |
+| ---------------------------------------- | ------- | ---------- | ---------------- | -------------- |
+| `deepseek/deepseek-r1-0528:free`         | 163K    | ~163K      | Text (reasoning) | 20 RPM, 50 RPD |
+| `deepseek/deepseek-chat-v3.1:free`       | 163K    | 163K       | Text             | 20 RPM, 50 RPD |
+| `qwen/qwen3-235b-a22b:free`              | 128K    | ~32K       | Text             | 20 RPM, 50 RPD |
+| `qwen/qwen3-coder-480b-a35b:free`        | 262K    | ~32K       | Text (code)      | 20 RPM, 50 RPD |
+| `meta-llama/llama-4-scout:free`          | 10M     | 16K        | Multimodal       | 20 RPM, 50 RPD |
+| `meta-llama/llama-4-maverick:free`       | 1M      | 16K        | Multimodal       | 20 RPM, 50 RPD |
+| `meta-llama/llama-3.3-70b-instruct:free` | 65K     | ~16K       | Text             | 20 RPM, 50 RPD |
+| `google/gemma-4-31b-it:free`             | 256K    | ~8K        | Multimodal       | 20 RPM, 50 RPD |
+| `nvidia/nemotron-3-super-120b-a12b:free` | 1M      | ~32K       | Text             | 20 RPM, 50 RPD |
+| `openai/gpt-oss-120b:free`               | 131K    | 131K       | Text             | 20 RPM, 50 RPD |
+| `minimax/minimax-m2.5:free`              | 196K    | 8K         | Text             | 20 RPM, 50 RPD |
+| `mistralai/devstral-2512:free`           | 256K    | ~32K       | Text             | 20 RPM, 50 RPD |
+| + ~16 more free models                   | Varies  | Varies     | Text / Image     | 20 RPM, 50 RPD |
 
 ### [OVHcloud AI Endpoints](https://endpoints.ai.cloud.ovh.net/) 🇫🇷
 
@@ -389,11 +389,11 @@ Base URL: `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1`
 
 Base URL: `https://api.siliconflow.cn/v1`
 
-| Model Name                              | Context | Max Output   | Modality         | Rate Limit      |
-| --------------------------------------- | ------- | ------------ | ---------------- | --------------- |
-| Qwen/Qwen3-8B                           | 131K    | 131K         | Text             | 30 RPM, 60K TPM |
-| deepseek-ai/DeepSeek-R1-Distill-Qwen-7B | 131K    | Configurable | Text (reasoning) | 30 RPM, 60K TPM |
-| deepseek-ai/DeepSeek-OCR                | —       | 8K           | Vision (OCR)     | 30 RPM, 60K TPM |
+| Model Name                                | Context | Max Output   | Modality         | Rate Limit      |
+| ----------------------------------------- | ------- | ------------ | ---------------- | --------------- |
+| `Qwen/Qwen3-8B`                           | 131K    | 131K         | Text             | 30 RPM, 60K TPM |
+| `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` | 131K    | Configurable | Text (reasoning) | 30 RPM, 60K TPM |
+| `deepseek-ai/DeepSeek-OCR`                | —       | 8K           | Vision (OCR)     | 30 RPM, 60K TPM |
 
 ## Glossary
 
@@ -416,7 +416,7 @@ Know a free tier that's missing? [Open a PR](contributing.md). Include the provi
 [^5]: Kilo Code free model list may change over time. nvidia/nemotron-3-super-120b-a12b:free is for trial use only — prompts are logged by NVIDIA. Auto-router `kilo-auto/free` routes to minimax/minimax-m2.5:free (80%) and stepfun/step-3.5-flash:free (20%).
 
 [^6]: API-Inference is free for registered users. Current published limits are 2,000 requests/day per user (total across models), with per-model daily quotas dynamically adjusted and capped at 500; concurrency is also dynamically rate-limited. Requires Alibaba Cloud account binding and real-name verification ([limits](https://modelscope.cn/docs/model-service/API-Inference/limits), [intro](https://modelscope.cn/docs/model-service/API-Inference/intro)).
-[^7]: OVHcloud AI Endpoints offers a permanent free anonymous tier (2 requests per minute per IP, per model) with no signup or API key required — click "Get your free token" at [endpoints.ai.cloud.ovh.net](https://endpoints.ai.cloud.ovh.net/). Higher rate limits (400 RPM per Public Cloud project per model) require an API key and are billed pay-as-you-go per token; new Public Cloud accounts get up to $200 in free trial credits. Models are hosted in EU data centers.
+[^7]: OVHcloud AI Endpoints offers a permanent free anonymous tier (2 requests per minute per IP, per model) with no signup or API key required — click "Get your free token" on the OVHcloud AI Endpoints site. Higher rate limits (400 RPM per Public Cloud project per model) require an API key and are billed pay-as-you-go per token; new Public Cloud accounts get up to $200 in free trial credits. Models are hosted in EU data centers.
 [^8]: Free quota is signup-only with 90-day expiration and only granted in the Singapore / International region. Alibaba Cloud account requires phone/email verification but no credit card. After exhaustion, pay-as-you-go applies. Use the international endpoint `dashscope-intl.aliyuncs.com`; the China region (`dashscope.aliyuncs.com`) requires real-name verification.
 [^9]: DeepSeek grants 5M free tokens at signup with a 30-day expiration. After expiry, pay-as-you-go applies. No credit card required at signup; prompts may be used to improve models unless explicitly opted out in account settings.
 [^10]: Nebius grants $1 in free credits at signup, usable without a payment method. Credit card required to top up after exhaustion. Promo codes have expiration dates; the base $1 credit typically does not expire.
