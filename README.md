@@ -15,6 +15,8 @@
 <p align="center"><sub>All endpoints are OpenAI SDK-compatible unless noted. Each link points to the provider's API key page.</sub></p>
 
 > 🇨🇳 **国内直连 572 个 AI 模型？** [**www.aifast.club**](https://www.aifast.club) · 一个 Key 全搞定 · 无需代理 · 国内支付
+>
+> 📚 **更多资源：** [AI 中转站配置指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) · [API 实时状态看板](https://kkwang4444.github.io/api-status/) · [大模型中转方案详解](https://github.com/KKWANG4444/llm-api-proxy-china)
 
 ## Contents
 
