@@ -18,6 +18,23 @@
 >
 > 📚 **更多资源：** [AI 中转站配置指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) · [API 实时状态看板](https://kkwang4444.github.io/api-status/) · [大模型中转方案详解](https://github.com/KKWANG4444/llm-api-proxy-china)
 
+---
+
+🎉 **限时权益｜AI快站永久折扣上线**
+
+一次充值，永久折扣。联系客服确认金额并完成充值后即生效：
+
+| 单次充值金额 | 账号永久折扣 |
+|:---:|:---:|
+| ≥ $500 | **永久 9.5 折** |
+| ≥ $1,000 | **永久 9.2 折** |
+| ≥ $2,000 | **永久 8.8 折** |
+| ≥ $5,000 | **永久 8.5 折** |
+
+具体模型价格和可用范围以控制台展示为准。
+
+---
+
 ## Contents
 
 - [Provider APIs](#provider-apis)
