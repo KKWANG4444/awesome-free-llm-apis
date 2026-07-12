@@ -14,7 +14,7 @@
 
 <p align="center"><sub>All endpoints are OpenAI SDK-compatible unless noted. Each link points to the provider's API key page.</sub></p>
 
-> **免费层之外的聚合选择：** 如果需要统一 Base URL 调用多个供应商，可参考 [www.aifast.club](https://www.aifast.club)；免费额度、模型范围与价格以各平台实时说明为准。
+> **免费额度不够时：** 先比较各平台的免费层；需要统一 Base URL 再看 [聚合接入指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)。示例兼容端点为 [www.aifast.club](https://www.aifast.club)。
 >
 > 📚 **更多资源：** [AI 中转站配置指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) · [API 实时状态看板](https://kkwang4444.github.io/api-status/) · [大模型中转方案详解](https://github.com/KKWANG4444/llm-api-proxy-china)
 
@@ -432,4 +432,4 @@ Know a free tier that's missing? [Open a PR](contributing.md). Include the provi
 [^12]: xAI's $25 sign-up credit is one-time. Users who opt into the data-sharing program (prompts logged) receive an additional $150/month in credits, but the program requires $5 of prior spend before activation, so it is not a pure free tier. Several older Grok models (grok-4, grok-4-fast, grok-4-1-fast) were retired on May 15, 2026 and now redirect to grok-4.3 ([models](https://docs.x.ai/developers/models)).
 
 ---
-*API 接入参考：[www.aifast.club](https://www.aifast.club) · [配置指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)*
+*接入参考：[OpenAI 兼容配置指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) · [模型状态](https://kkwang4444.github.io/api-status/) · [示例端点](https://www.aifast.club)*
