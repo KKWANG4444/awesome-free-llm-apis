@@ -14,24 +14,13 @@
 
 <p align="center"><sub>All endpoints are OpenAI SDK-compatible unless noted. Each link points to the provider's API key page.</sub></p>
 
-> 🇨🇳 **国内直连 572 个 AI 模型？** [**www.aifast.club**](https://www.aifast.club) · 一个 Key 全搞定 · 无需代理 · 国内支付
+> **免费层之外的聚合选择：** 如果需要统一 Base URL 调用多个供应商，可参考 [www.aifast.club](https://www.aifast.club)；免费额度、模型范围与价格以各平台实时说明为准。
 >
 > 📚 **更多资源：** [AI 中转站配置指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide) · [API 实时状态看板](https://kkwang4444.github.io/api-status/) · [大模型中转方案详解](https://github.com/KKWANG4444/llm-api-proxy-china)
 
 ---
 
-🎉 **限时权益｜AI快站永久折扣上线**
-
-一次充值，永久折扣。联系客服确认金额并完成充值后即生效：
-
-| 单次充值金额 | 账号永久折扣 |
-|:---:|:---:|
-| ≥ $500 | **永久 9.5 折** |
-| ≥ $1,000 | **永久 9.2 折** |
-| ≥ $2,000 | **永久 8.8 折** |
-| ≥ $5,000 | **永久 8.5 折** |
-
-具体模型价格和可用范围以控制台展示为准。
+> 模型范围、价格和可用性以 [AI快站控制台](https://www.aifast.club) 当前展示为准。
 
 ---
 
@@ -443,4 +432,4 @@ Know a free tier that's missing? [Open a PR](contributing.md). Include the provi
 [^12]: xAI's $25 sign-up credit is one-time. Users who opt into the data-sharing program (prompts logged) receive an additional $150/month in credits, but the program requires $5 of prior spend before activation, so it is not a pure free tier. Several older Grok models (grok-4, grok-4-fast, grok-4-1-fast) were retired on May 15, 2026 and now redirect to grok-4.3 ([models](https://docs.x.ai/developers/models)).
 
 ---
-*🚀 国内开发者 AI API 直连方案：[www.aifast.club](https://www.aifast.club) · 572 个模型一站接入 · [🤖 OpenClaw 一键部署 AI 智能体](https://www.aifast.club/openclaw)*
+*API 接入参考：[www.aifast.club](https://www.aifast.club) · [配置指南](https://github.com/KKWANG4444/ai-api-proxy-china-guide)*
